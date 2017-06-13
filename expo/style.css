@@ -1,0 +1,197 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	margin: 0;
+}
+
+.section-1{
+	width: 100vw;
+	height: 100vh;
+}
+.section-1 .header{
+	padding-top: 5	px;
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-1 .header .logo img{
+	width: 60px;
+	height: 60px;
+}
+
+.section-1 .header .buttons{
+	position: absolute;
+	right: 50px;	
+}
+
+.section-1 .header .buttons button{
+	font-family: Roboto;
+	font-weight: 300;
+	color:#61E733;
+	font-size: 14pt;
+	height: 60px;
+	width: 130px;
+	padding: 0;
+	text-transform: uppercase;
+	top:0;
+	background-color: white;
+	border:none;
+	outline: none;
+}
+.section-1 .header .buttons button:hover{
+	background-color: #61E733;
+	color: white;
+}
+.section-1 .home {
+	display: flex;
+	flex-direction: column;
+}
+.section-1 .home .bg-image{
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('https://www.bestar.kz/wp-content/uploads/2017/04/268ce82cde0de6642cf898330995a709.jpg');
+	background-size: cover;
+	margin: 0;
+
+}
+
+
+.section-1 .home .bg-image .description h2{
+	margin-top: 10px;
+	font-size: 50pt;
+	font-weight: 300;
+	font-family: A day without sun;
+}
+
+.section-1 .home .bg-image .description p{
+	font-family: Roboto;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 14pt;
+}
+
+.section-1 .home .down{
+	width: 40px;
+	height: 40px;
+	margin:auto;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -50px;
+	margin: auto;
+}
+
+
+.section-2{
+	width: 100vw;
+	height: 40vh;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.section-2 .content-1,
+.section-2 .content-2,
+.section-2 .content-3,
+.section-2 .content-4{
+	width: 25%;
+	margin: 0 auto;
+
+}
+.section-2 .content-1 h5,
+.section-2 .content-2 h5,
+.section-2 .content-3 h5,
+.section-2 .content-4 h5{
+	text-transform: uppercase;
+	color: #61E733;
+	font-size: 16px;
+	font-weight: 400;
+}
+.section-2 .content-1 p,
+.section-2 .content-2 p,
+.section-2 .content-3 p,
+.section-2 .content-4 p{
+	color: #61E733;
+	font-size: 14px;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+
+}
+ .about-us{
+ 	width: 100%;
+ 	height: 30%;
+ }
+
+ .about-us h4{
+ 	font-size: 42px;
+ 	font-family: Roboto;
+ 	font-weight: 200;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	margin: 0;
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ 	color:#fa7e7e;
+ }
+
+.our-team{
+	 height: 50%;
+	 width: 100%;
+	 display: flex;
+
+}
+ 
+
+ .client-info{
+ 	width: 100vw;
+ 	height: 100vh;
+ 	background-color: #61E733;
+
+ }
+ .caption{
+ 	width: 100%;
+ 	padding: 20px;
+ 	
+ }
+
+ .caption h5{
+ 	text-transform: uppercase;
+ 	color: white;
+ 	font-size: 32px;
+ 	text-align: center;
+}
+
+.caption h6{
+	margin: 10px auto;
+	width: 40%;
+	font-size: 13pt;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+}
+
+.group-1{
+	margin-top: 50px;
+	margin-left: 170px;
+	margin-right:170px;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+}
+
+.group-1 img{
+	margin: 0 auto;
+	width: 15%;
+	height: 20%;
+}
